@@ -1,0 +1,29 @@
+﻿Build started 06.11.2013 17:40:42.
+     1>Project "E:\Programming\Compilers\ExprParser\ExprParser\ExprParser.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Programs\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ExprParser.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ExprParser.cpp
+         ExprParser.cpp
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(127): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(129): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(387): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(401): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(431): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(450): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(535): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(662): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(702): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(903): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(940): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(954): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(969): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(501): warning C4715: 'getPriority' : not all control paths return a value
+     1>e:\programming\compilers\exprparser\exprparser\exprparser.cpp(488): warning C4715: 'getOperation' : not all control paths return a value
+       Link:
+         E:\Programs\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Programming\Compilers\ExprParser\Debug\ExprParser.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Programming\Compilers\ExprParser\Debug\ExprParser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Programming\Compilers\ExprParser\Debug\ExprParser.lib" /MACHINE:X86 Debug\ExprParser.obj
+         Debug\stdafx.obj
+         ExprParser.vcxproj -> E:\Programming\Compilers\ExprParser\Debug\ExprParser.exe
+     1>Done Building Project "E:\Programming\Compilers\ExprParser\ExprParser\ExprParser.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.03
